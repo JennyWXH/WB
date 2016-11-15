@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
         //2、创建根控制器
-        window?.rootViewController = ViewController()
+        window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
         
         return true
