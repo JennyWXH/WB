@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F043C9E1DDD98EF00AEEA2B /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043C9D1DDD98EF00AEEA2B /* BaseTableViewController.swift */; };
+		3F043CA01DDD9A9200AEEA2B /* VistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043C9F1DDD9A9200AEEA2B /* VistorView.swift */; };
+		3F043CA21DDD9DF600AEEA2B /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043CA11DDD9DF600AEEA2B /* UIView+AutoLayout.swift */; };
+		3F043CA61DDE117B00AEEA2B /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043CA51DDE117B00AEEA2B /* UIBarButtonItem+Category.swift */; };
+		3F043CA81DDE131000AEEA2B /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043CA71DDE131000AEEA2B /* UIButton+Category.swift */; };
+		3F043CAA1DDE133000AEEA2B /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043CA91DDE133000AEEA2B /* TitleButton.swift */; };
+		3F043CAF1DDE9C3900AEEA2B /* PopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F043CAE1DDE9C3900AEEA2B /* PopoverViewController.storyboard */; };
+		3F043CB11DDEBE6F00AEEA2B /* PopoverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043CB01DDEBE6F00AEEA2B /* PopoverPresentationController.swift */; };
+		3F0577CA1DE04D5700EA5E49 /* PopoverAnimater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0577C91DE04D5700EA5E49 /* PopoverAnimater.swift */; };
+		3F0577CD1DE055A100EA5E49 /* QRCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0577CC1DE055A100EA5E49 /* QRCodeViewController.storyboard */; };
+		3F0577CF1DE0566800EA5E49 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0577CE1DE0566800EA5E49 /* QRCodeViewController.swift */; };
+		3F0577D11DE21A2E00EA5E49 /* QRMyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0577D01DE21A2E00EA5E49 /* QRMyCodeViewController.swift */; };
+		3F7D73D21DE2FBB500A481BB /* Pods_WeiboTT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AA2774D92463EC87E4C61F4 /* Pods_WeiboTT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3FFBB3851DD9EBFF00D40F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB3841DD9EBFF00D40F96 /* AppDelegate.swift */; };
 		3FFBB3871DD9EBFF00D40F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB3861DD9EBFF00D40F96 /* ViewController.swift */; };
 		3FFBB38A1DD9EBFF00D40F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBB3881DD9EBFF00D40F96 /* Main.storyboard */; };
@@ -21,6 +34,9 @@
 		3FFBB3C51DD9FD5800D40F96 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB3C41DD9FD5800D40F96 /* ProfileViewController.swift */; };
 		3FFBB3C71DD9FD6900D40F96 /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB3C61DD9FD6900D40F96 /* ToolsViewController.swift */; };
 		3FFBB3C91DDA8FFA00D40F96 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB3C81DDA8FFA00D40F96 /* MainViewController.swift */; };
+		3FFBB3CD1DDAA52E00D40F96 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBB3CB1DDAA52E00D40F96 /* MainVCSettings.json */; };
+		3FFBB3CE1DDAA52E00D40F96 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB3CC1DDAA52E00D40F96 /* NullViewController.swift */; };
+		5BCC47FC9E5134416BCD08F6 /* Pods_WeiboTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA2774D92463EC87E4C61F4 /* Pods_WeiboTT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +56,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F7D73D11DE2FBAA00A481BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F7D73D21DE2FBB500A481BB /* Pods_WeiboTT.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		18AE3C755FE114B880A9E6BA /* Pods-WeiboTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiboTT.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeiboTT/Pods-WeiboTT.release.xcconfig"; sourceTree = "<group>"; };
+		3AA2774D92463EC87E4C61F4 /* Pods_WeiboTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiboTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F043C9D1DDD98EF00AEEA2B /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		3F043C9F1DDD9A9200AEEA2B /* VistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistorView.swift; sourceTree = "<group>"; };
+		3F043CA11DDD9DF600AEEA2B /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		3F043CA51DDE117B00AEEA2B /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
+		3F043CA71DDE131000AEEA2B /* UIButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
+		3F043CA91DDE133000AEEA2B /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
+		3F043CAE1DDE9C3900AEEA2B /* PopoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopoverViewController.storyboard; sourceTree = "<group>"; };
+		3F043CB01DDEBE6F00AEEA2B /* PopoverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverPresentationController.swift; sourceTree = "<group>"; };
+		3F0577C91DE04D5700EA5E49 /* PopoverAnimater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimater.swift; sourceTree = "<group>"; };
+		3F0577CC1DE055A100EA5E49 /* QRCodeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRCodeViewController.storyboard; sourceTree = "<group>"; };
+		3F0577CE1DE0566800EA5E49 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		3F0577D01DE21A2E00EA5E49 /* QRMyCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRMyCodeViewController.swift; sourceTree = "<group>"; };
+		3F7D73D01DE2E6FD00A481BB /* WeiboTT-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeiboTT-Bridge.h"; sourceTree = "<group>"; };
 		3FFBB3811DD9EBFF00D40F96 /* WeiboTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFBB3841DD9EBFF00D40F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFBB3861DD9EBFF00D40F96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +105,9 @@
 		3FFBB3C41DD9FD5800D40F96 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3FFBB3C61DD9FD6900D40F96 /* ToolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
 		3FFBB3C81DDA8FFA00D40F96 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3FFBB3CB1DDAA52E00D40F96 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		3FFBB3CC1DDAA52E00D40F96 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		C98B5B4483D2A12EC7945228 /* Pods-WeiboTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiboTT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeiboTT/Pods-WeiboTT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCC47FC9E5134416BCD08F6 /* Pods_WeiboTT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +136,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F043CAB1DDE9BF100AEEA2B /* Poper */ = {
+			isa = PBXGroup;
+			children = (
+				3F043CAE1DDE9C3900AEEA2B /* PopoverViewController.storyboard */,
+				3F043CB01DDEBE6F00AEEA2B /* PopoverPresentationController.swift */,
+				3F0577C91DE04D5700EA5E49 /* PopoverAnimater.swift */,
+			);
+			name = Poper;
+			sourceTree = "<group>";
+		};
+		3F0577CB1DE0553200EA5E49 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				3F0577CC1DE055A100EA5E49 /* QRCodeViewController.storyboard */,
+				3F0577CE1DE0566800EA5E49 /* QRCodeViewController.swift */,
+				3F0577D01DE21A2E00EA5E49 /* QRMyCodeViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
 		3FFBB3781DD9EBFF00D40F96 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +163,8 @@
 				3FFBB3981DD9EBFF00D40F96 /* WeiboTTTests */,
 				3FFBB3A31DD9EBFF00D40F96 /* WeiboTTUITests */,
 				3FFBB3821DD9EBFF00D40F96 /* Products */,
+				4B2792F72AE61E4F3B3F7F2E /* Pods */,
+				EB5F93BEE4003FA4A0771D4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +183,7 @@
 			children = (
 				3FFBB3841DD9EBFF00D40F96 /* AppDelegate.swift */,
 				3FFBB3861DD9EBFF00D40F96 /* ViewController.swift */,
+				3F7D73D01DE2E6FD00A481BB /* WeiboTT-Bridge.h */,
 				3FFBB3B21DD9FCA900D40F96 /* Classes */,
 				3FFBB3881DD9EBFF00D40F96 /* Main.storyboard */,
 				3FFBB38B1DD9EBFF00D40F96 /* Assets.xcassets */,
@@ -143,12 +214,12 @@
 		3FFBB3B21DD9FCA900D40F96 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3FFBB3B31DD9FCA900D40F96 /* Common */,
-				3FFBB3B41DD9FCA900D40F96 /* Discover */,
+				3FFBB3B61DD9FCA900D40F96 /* Main */,
 				3FFBB3B51DD9FCA900D40F96 /* Home */,
 				3FFBB3B71DD9FCA900D40F96 /* Message */,
-				3FFBB3B61DD9FCA900D40F96 /* Main */,
+				3FFBB3B41DD9FCA900D40F96 /* Discover */,
 				3FFBB3B81DD9FCA900D40F96 /* Profile */,
+				3FFBB3B31DD9FCA900D40F96 /* Common */,
 				3FFBB3B91DD9FCA900D40F96 /* Tools */,
 			);
 			path = Classes;
@@ -158,6 +229,9 @@
 			isa = PBXGroup;
 			children = (
 				3FFBB3BA1DD9FCE600D40F96 /* CommonViewController.swift */,
+				3F043CA51DDE117B00AEEA2B /* UIBarButtonItem+Category.swift */,
+				3F043CA91DDE133000AEEA2B /* TitleButton.swift */,
+				3F043CA71DDE131000AEEA2B /* UIButton+Category.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -173,6 +247,8 @@
 		3FFBB3B51DD9FCA900D40F96 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3F0577CB1DE0553200EA5E49 /* QRCode */,
+				3F043CAB1DDE9BF100AEEA2B /* Poper */,
 				3FFBB3BE1DD9FCFE00D40F96 /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -181,7 +257,10 @@
 		3FFBB3B61DD9FCA900D40F96 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3FFBB3CA1DDAA52E00D40F96 /* Resource */,
 				3FFBB3C81DDA8FFA00D40F96 /* MainViewController.swift */,
+				3F043C9D1DDD98EF00AEEA2B /* BaseTableViewController.swift */,
+				3F043C9F1DDD9A9200AEEA2B /* VistorView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -206,8 +285,35 @@
 			isa = PBXGroup;
 			children = (
 				3FFBB3C61DD9FD6900D40F96 /* ToolsViewController.swift */,
+				3F043CA11DDD9DF600AEEA2B /* UIView+AutoLayout.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		3FFBB3CA1DDAA52E00D40F96 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3FFBB3CB1DDAA52E00D40F96 /* MainVCSettings.json */,
+				3FFBB3CC1DDAA52E00D40F96 /* NullViewController.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4B2792F72AE61E4F3B3F7F2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C98B5B4483D2A12EC7945228 /* Pods-WeiboTT.debug.xcconfig */,
+				18AE3C755FE114B880A9E6BA /* Pods-WeiboTT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB5F93BEE4003FA4A0771D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AA2774D92463EC87E4C61F4 /* Pods_WeiboTT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +323,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FFBB3A91DD9EBFF00D40F96 /* Build configuration list for PBXNativeTarget "WeiboTT" */;
 			buildPhases = (
+				B8F1AB3A218DAC6D15EF93E7 /* 📦 Check Pods Manifest.lock */,
 				3FFBB37D1DD9EBFF00D40F96 /* Sources */,
 				3FFBB37E1DD9EBFF00D40F96 /* Frameworks */,
 				3FFBB37F1DD9EBFF00D40F96 /* Resources */,
+				1B1AD527F8CE41C66E43DD85 /* 📦 Embed Pods Frameworks */,
+				1B6DD1F624E73AA1C922B865 /* 📦 Copy Pods Resources */,
+				3F7D73D11DE2FBAA00A481BB /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -278,7 +388,7 @@
 				TargetAttributes = {
 					3FFBB3801DD9EBFF00D40F96 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3FFBB3941DD9EBFF00D40F96 = {
 						CreatedOnToolsVersion = 8.1;
@@ -319,7 +429,10 @@
 			files = (
 				3FFBB38F1DD9EBFF00D40F96 /* LaunchScreen.storyboard in Resources */,
 				3FFBB38C1DD9EBFF00D40F96 /* Assets.xcassets in Resources */,
+				3FFBB3CD1DDAA52E00D40F96 /* MainVCSettings.json in Resources */,
+				3F043CAF1DDE9C3900AEEA2B /* PopoverViewController.storyboard in Resources */,
 				3FFBB38A1DD9EBFF00D40F96 /* Main.storyboard in Resources */,
+				3F0577CD1DE055A100EA5E49 /* QRCodeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,19 +452,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B1AD527F8CE41C66E43DD85 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiboTT/Pods-WeiboTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B6DD1F624E73AA1C922B865 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiboTT/Pods-WeiboTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F1AB3A218DAC6D15EF93E7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FFBB37D1DD9EBFF00D40F96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3FFBB3C71DD9FD6900D40F96 /* ToolsViewController.swift in Sources */,
+				3F043CA81DDE131000AEEA2B /* UIButton+Category.swift in Sources */,
 				3FFBB3BF1DD9FCFE00D40F96 /* HomeViewController.swift in Sources */,
+				3F043CB11DDEBE6F00AEEA2B /* PopoverPresentationController.swift in Sources */,
 				3FFBB3BB1DD9FCE600D40F96 /* CommonViewController.swift in Sources */,
 				3FFBB3BD1DD9FCF100D40F96 /* DiscoverViewController.swift in Sources */,
 				3FFBB3871DD9EBFF00D40F96 /* ViewController.swift in Sources */,
+				3F043CA01DDD9A9200AEEA2B /* VistorView.swift in Sources */,
+				3F043CA61DDE117B00AEEA2B /* UIBarButtonItem+Category.swift in Sources */,
+				3FFBB3CE1DDAA52E00D40F96 /* NullViewController.swift in Sources */,
+				3F0577CA1DE04D5700EA5E49 /* PopoverAnimater.swift in Sources */,
+				3F043CA21DDD9DF600AEEA2B /* UIView+AutoLayout.swift in Sources */,
+				3F043CAA1DDE133000AEEA2B /* TitleButton.swift in Sources */,
 				3FFBB3C11DD9FD2F00D40F96 /* MessageViewController.swift in Sources */,
+				3F0577D11DE21A2E00EA5E49 /* QRMyCodeViewController.swift in Sources */,
 				3FFBB3C91DDA8FFA00D40F96 /* MainViewController.swift in Sources */,
 				3FFBB3C51DD9FD5800D40F96 /* ProfileViewController.swift in Sources */,
+				3F0577CF1DE0566800EA5E49 /* QRCodeViewController.swift in Sources */,
+				3F043C9E1DDD98EF00AEEA2B /* BaseTableViewController.swift in Sources */,
 				3FFBB3851DD9EBFF00D40F96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,24 +674,36 @@
 		};
 		3FFBB3AA1DD9EBFF00D40F96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98B5B4483D2A12EC7945228 /* Pods-WeiboTT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pan mao (ESAYN35WBZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pan mao (ESAYN35WBZ)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WeiboTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = king.WeiboTT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.WeiboTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b691ecdd-ba00-4285-8dbb-21def4dfc5d3";
+				PROVISIONING_PROFILE_SPECIFIER = testWB;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3FFBB3AB1DD9EBFF00D40F96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AE3C755FE114B880A9E6BA /* Pods-WeiboTT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pan mao (ESAYN35WBZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pan mao (ESAYN35WBZ)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WeiboTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = king.WeiboTT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.WeiboTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b691ecdd-ba00-4285-8dbb-21def4dfc5d3";
+				PROVISIONING_PROFILE_SPECIFIER = testWB;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

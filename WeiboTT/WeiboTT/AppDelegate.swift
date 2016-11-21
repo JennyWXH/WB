@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        //设置导航条和工具条的外观
+        //因为外观一旦设置全局有效，所以应在一进来就设置
+        UINavigationBar.appearance().tintColor = UIColor.orange
+        UITabBar.appearance().tintColor = UIColor.orange
+        
         //1、创建window
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white

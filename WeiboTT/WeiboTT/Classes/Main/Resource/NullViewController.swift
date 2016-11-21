@@ -1,22 +1,18 @@
 //
-//  DiscoverViewController.swift
-//  WeiboTT
+//  NullViewController.swift
+//  XMGWeibo
 //
-//  Created by 小浩 on 2016/11/14.
-//  Copyright © 2016年 小浩. All rights reserved.
+//  Created by 李南江 on 15/8/31.
+//  Copyright © 2015年 xiaomage. All rights reserved.
 //
 
 import UIKit
 
-class DiscoverViewController: BaseTableViewController {
+class NullViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if !userLogin
-        {
-            vistorView?.setUpLoginView(isHome: false, imageName: "visitordiscover_image_message", message: "登录后，最新、最热微博尽在掌握，不再会与实事潮流擦肩而过")
-        }
         // Do any additional setup after loading the view.
     }
 
@@ -30,7 +26,7 @@ class DiscoverViewController: BaseTableViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
